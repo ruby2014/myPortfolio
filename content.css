@@ -62,7 +62,7 @@
     margin-top: 10%;
     font-size: large;
   }
-  .photo {
+  .photo1 {
       margin-top: .5%;
       width: 40%;
       float: left;
@@ -77,21 +77,39 @@
     flex: .4;
     background-color:gray;
   }
+  @media only screen and (max-width: 600px){
+    .about1{
+      background-color: lightblue;
+    }
+  }
+    
+  
   
 
 
 /*skills css*/
 
-.item {
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+     flex-direction: column;
+ /* align-items: center; */
+  background-color: orange;
+  justify-content: center;
+    align-items: center;
+}
+
+.item0{
   width: 100%;
   justify-content: center;
     align-items: center;
-  flex:.4;
+  flex: 1;
   background-color: blue;
 }
 .topnav {
     
-    height: 100%;
+height: 100%;
 background-color: #333;
 overflow: hidden;
 }
@@ -104,29 +122,49 @@ overflow: hidden;
   font-size: 17px;
 }
 
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
 .skillitem {
   width: 100%;
 
   flex: 4;
   background-color:white;
+  
 }
-.text{
+.skillitem text{
     font-weight: normal;
     font-family: Verdana;
   padding: auto;
   align-content: center;
   margin-top: 10%;
   font-size: large;
+  
 }
-.photo {
+.photo2 {
     margin-top: 10%;
-    width: 35%;
+    width: 10%;
     float: left;
 
 }
-.skillitem h2 p{
+.skillitem  certi{
   margin-top: .5%;
-  float:right;
+  margin-left: 50%;
+}
+@media only screen and (min-width:601px) {
+  .skillitem {
+   font-style:inherit;
+   color:peru
+  }
 }
 
 
@@ -168,12 +206,17 @@ overflow: hidden;
   font-size: large;
   margin-left: 15%;
 }
-.photo1{
+.photo3{
     margin-top: .5%;
     width: 15%;
     align-content: center;
-    float:center;
+    float:centert;
 
+}
+@media only screen and (max-width: 600px){
+  .contactitem{
+    background-color: lightpink;
+  }
 }
 
 
