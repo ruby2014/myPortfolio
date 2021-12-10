@@ -77,11 +77,7 @@
     flex: .4;
     background-color:gray;
   }
-  @media only screen and (max-width: 600px){
-    .about1{
-      background-color: lightblue;
-    }
-  }
+  
     
   
   
@@ -160,12 +156,7 @@ overflow: hidden;
   margin-top: .5%;
   margin-left: 50%;
 }
-@media only screen and (min-width:601px) {
-  .skillitem {
-   font-style:inherit;
-   color:peru
-  }
-}
+
 
 
 /*contact */
@@ -212,11 +203,6 @@ overflow: hidden;
     align-content: center;
     float:centert;
 
-}
-@media only screen and (max-width: 600px){
-  .contactitem{
-    background-color: lightpink;
-  }
 }
 
 
